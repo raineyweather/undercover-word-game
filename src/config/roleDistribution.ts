@@ -8,6 +8,21 @@ export const DEFAULT_DISTRIBUTIONS: Record<number, RoleDistribution> = {
   8: { undercovers: 2, mrWhites: 1 },
   9: { undercovers: 3, mrWhites: 1 },
   10: { undercovers: 3, mrWhites: 1 },
+  11: { undercovers: 4, mrWhites: 1 },
+  12: { undercovers: 4, mrWhites: 1 },
+  13: { undercovers: 5, mrWhites: 1 },
+  14: { undercovers: 5, mrWhites: 2 },
+  15: { undercovers: 6, mrWhites: 2 },
+  16: { undercovers: 6, mrWhites: 2 },
+  17: { undercovers: 7, mrWhites: 2 },
+  18: { undercovers: 7, mrWhites: 2 },
+  19: { undercovers: 8, mrWhites: 2 },
+  20: { undercovers: 8, mrWhites: 2 },
+  21: { undercovers: 9, mrWhites: 2 },
+  22: { undercovers: 9, mrWhites: 3 },
+  23: { undercovers: 10, mrWhites: 3 },
+  24: { undercovers: 10, mrWhites: 3 },
+  25: { undercovers: 11, mrWhites: 3 },
 };
 
 export const calculateDefaultDistribution = (playerCount: number): RoleDistribution => {
